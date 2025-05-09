@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="overlord">
+        <h1>Just the tip<br><img src="R.jpg" alt="Just the tip logo image" id="img"></h1>
+        
+            <div class="row">
+            <label for="billAmount">Bill Amount:</label>
+            <input type="text" id="billAmount" placeholder="$">     
+            </div>       
+            <div class="row">                     
+                <button type="submit" class="btn" id="tip15" role="button">15%</button>
+                <button type="submit" class="btn" id="tip18" role="button">18%</button>
+                <button type="submit" class="btn" id="tip20" role="button">20%</button>
+                <br><br>
+                <p class="lilLabel">Tip:</p><p id="tipResult"></p>
+                <p class="lilLabel">Total:</p><p id="totalResult"></p>
+            </div>
+            
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
